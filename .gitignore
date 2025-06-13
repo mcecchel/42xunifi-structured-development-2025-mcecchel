@@ -1,0 +1,3 @@
+echo "*.o" >> .gitignore
+echo "a.out" >> .gitignore
+echo "*.exe" >> .gitignore

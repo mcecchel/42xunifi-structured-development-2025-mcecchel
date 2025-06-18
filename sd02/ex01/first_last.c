@@ -31,16 +31,16 @@ void	first_last(int arr[], int size, int target, int *first, int *last)
 	}
 }
 
-int	main(void)
-{
-	int arr[] = {1, 2, 3, 4, 2, 5, 2};
-	int first;
-	int last;
+// int	main(void)
+// {
+// 	int arr[] = {1, 2, 3, 4, 2, 5, 2};
+// 	int first;
+// 	int last;
 	
-	first_last(arr, sizeof(arr) / sizeof(arr[0]), 2, &first, &last);
-	if (first != -1 && last != -1)
-		printf("First occurrence: %d, Last occurrence: %d\n", first, last);
-	else
-		printf("Target not found.\n");
-	return (0);
-}
+// 	first_last(arr, sizeof(arr) / sizeof(arr[0]), 2, &first, &last);
+// 	if (first != -1 && last != -1)
+// 		printf("First occurrence: %d, Last occurrence: %d\n", first, last);
+// 	else
+// 		printf("Target not found.\n");
+// 	return (0);
+// }

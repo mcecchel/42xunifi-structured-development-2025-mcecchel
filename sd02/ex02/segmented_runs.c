@@ -54,12 +54,12 @@ int	count_segments(const int *arr, int size)
 	return (seg_count);
 }
 
-int main(void)
-{
-	int arr[] = {1, 2, 3, -1, 4, 5, 6, -1, 7, 8, 9};
-	int size = sizeof(arr) / sizeof(arr[0]);
-	int result = count_segments(arr, size);
+// int main(void)
+// {
+// 	int arr[] = {1, 2, 3, -1, 4, 5, 6, -1, 7, 8, 9};
+// 	int size = sizeof(arr) / sizeof(arr[0]);
+// 	int result = count_segments(arr, size);
 	
-	printf("Number of segments: %d\n", result);
-	return (0);
-}
+// 	printf("Number of segments: %d\n", result);
+// 	return (0);
+// }

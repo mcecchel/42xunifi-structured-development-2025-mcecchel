@@ -79,15 +79,15 @@ int	count_critical_windows(const int *readings, int size)
 	return (count);
 }
 
-int main(void)
-{
-	int readings[] = {80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160};
-	int size = sizeof(readings) / sizeof(readings[0]);
-	int result = count_critical_windows(readings, size);
+// int main(void)
+// {
+// 	int readings[] = {80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160};
+// 	int size = sizeof(readings) / sizeof(readings[0]);
+// 	int result = count_critical_windows(readings, size);
 	
-	if (result == 0)
-		printf("No critical windows found\n");
-	else
-		printf("Found %d critical windows\n", result);
-	return (0);
-}
+// 	if (result == 0)
+// 		printf("No critical windows found\n");
+// 	else
+// 		printf("Found %d critical windows\n", result);
+// 	return (0);
+// }

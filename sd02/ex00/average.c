@@ -32,11 +32,11 @@ float	average(const int *arr, int size)
 	return ((float)sum / valid_count);
 }
 
-int main()
-{
-	int scores[] = {85, 90, 78, -5, 110, 95};
-	int size = sizeof(scores) / sizeof(scores[0]);
-	float avge = average(scores, size);
-	printf("Average score: %.2f\n", avge);
-	return 0;
-}
+// int main()
+// {
+// 	int scores[] = {85, 90, 78, -5, 110, 95};
+// 	int size = sizeof(scores) / sizeof(scores[0]);
+// 	float avge = average(scores, size);
+// 	printf("Average score: %.2f\n", avge);
+// 	return 0;
+// }
